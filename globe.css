@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #555;
+  box-sizing: border-box;
+}
+
+#left {
+  position:absolute;
+  left:0;
+  width:800px;
+}
+
+#right {
+  position:absolute;
+  right: 0;
+}
+
+#bottom-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width:650px;
+  height: 320px;
+  color: white;
+  overflow: scroll;
+  font-size: 18px;
+  margin-top: -20px;
+}
+
+#title {
+  font-size: 24px;
+}
+
+#current {
+  position: absolute;
+  color: white;
+  font-family: serif;
+  margin-left: 4%;
+  margin-top: 4%;
+  font-size:40px;
+}
+
+#globe {
+  cursor: move;  
+}
